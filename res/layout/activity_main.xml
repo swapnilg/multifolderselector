@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg2">
+
+    <ExpandableListView
+        android:id="@+id/expandableListView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:dividerHeight="1dp"
+        android:divider="@android:drawable/divider_horizontal_dim_dark"
+        android:childDivider="@android:drawable/divider_horizontal_dim_dark"
+        android:groupIndicator="@drawable/selector"
+         >
+    </ExpandableListView>
+
+</LinearLayout>
